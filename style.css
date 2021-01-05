@@ -1,0 +1,29 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
+}
+
+.button {
+  float: right;
+  margin-right: 5%;
+}
+}
+.half-site {
+  width: 40%;
+  margin-left: 5%;
+  float: left;
+  padding-left: 2%;
+}
+.half-site img {
+  width: 100%;
+}
+.full-site {
+  width: 40%;
+  margin-left: 5%;
+  float: left;
+  padding-left: 2%;
+}
+
+.full-site img {
+  height: 100%;
+}
