@@ -111,7 +111,9 @@ section {
   background-repeat: no-repeat;
   background-position: left;
 }
-
+.Experiences h2 {
+  text-align: center;
+}
 #web-des {
   border-left: 7px solid;
   border-image: linear-gradient(5deg, tomato, blue);
@@ -153,36 +155,71 @@ footer {
 }
 .dow-ims {
   text-align: center;
+  margin: 0 auto;
 }
-.bg-imgs {
+.dow-ims img {
+  height: 20px;
+  width: 30px;
+  margin-bottom: 40px;
+}
+
+/* .bg-imgs {
   background-image: url("images/middle-bar.png");
   margin: 20px;
   padding: 20px;
   height: 150px;
   width: 300px;
-}
-/* last section ,first div */
+} */
+
+/* Last section  inquiry_class last top and buttom--> */
+
 .inquiry {
-  background-position: middle;
+  background-image: url("images/middle-bar.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
 }
 
 .last-top {
-  margin: 5% 20%;
-  padding: 10%;
   text-align: center;
   color: white;
+  padding: 300px;
 }
-.last-top img {
-  width: 100%;
+
+.left-text {
+  float: left;
+  margin: 15px 80px;
+  width: 20%;
 }
-.top-text {
-  color: red;
-  font-size: 20px;
-  top: 8px;
-  left: 16px;
+.left-text h2 {
+  color: white;
+  margin: 5px 5px;
+}
+.right-button {
+  float: right;
+  margin: 20px 80px;
+  width: 20%;
+}
+
+/* 
+.left-text {
+  margin-left: 50px;
+  padding: 20%;
 }
 
 .right-button {
-  top: 30px;
-  right: 16px;
+  margin-left: 30px;
+  padding: 30%;
+} */
+
+/* <!-- Div Second half --> */
+.last-bottom {
+  color: gray;
+  text-align: center;
+  margin: 10px 20px;
+  padding: 20px;
+}
+footer {
+  color: black;
+  font-size: 15px;
 }
