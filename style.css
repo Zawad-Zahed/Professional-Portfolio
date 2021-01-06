@@ -2,10 +2,24 @@ body {
   font-family: "Bebas Neue", cursive;
   margin: 0%;
 }
-.menu{text-align: right; margin-right: 142px;}
-.menu ul{margin: 0; padding: 0%; list-style: none;}
-.menu li{display: inline-block;}
-.menu li a{display: block;color: black; padding: 10px; text-decoration: none;}
+.menu {
+  text-align: right;
+  margin-right: 142px;
+}
+.menu ul {
+  margin: 0;
+  padding: 0%;
+  list-style: none;
+}
+.menu li {
+  display: inline-block;
+}
+.menu li a {
+  display: block;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
 
 h1 {
   font-size: 40px;
@@ -35,8 +49,11 @@ h2 {
 .shadow-bg {
   box-shadow: 10px 10px 50px gray;
   border-radius: 10px;
-  height: 50%;
+  height: 70%;
   width: 25%;
+  margin: 22px;
+  padding: 30px;
+  float: left;
 }
 
 .full-site {
@@ -44,13 +61,9 @@ h2 {
   margin: auto;
 }
 
-}
-
 .last-bg {
   width: 25px;
   height: 10px;
- 
-
 }
 section {
   height: 500px;
@@ -59,17 +72,12 @@ section {
 .top-baner {
   background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
-  margin: 30px 40px ;
+  margin: 30px 40px;
 }
 .Dream-area {
   background-image: url("images/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
-}
-
-.inquiry {
-  background-position: middle;
-
 }
 
 .link-button {
@@ -119,9 +127,23 @@ section {
   border-image: linear-gradient(5deg, tomato, blue);
   border-image-slice: 1;
 }
+/* Projects section */
+.Ptojects {
+  background-color: rgb(223, 221, 221);
+}
+
+.shadow-bg2 {
+  height: 70%;
+  width: 25%;
+  margin: 40px;
+  padding: 30px;
+  float: left;
+}
 
 .font-mid {
   text-align: center;
+  padding-top: 50px;
+  margin-top: 0px;
 }
 
 footer {
@@ -129,15 +151,38 @@ footer {
   color: gray;
   font-size: 15px;
 }
-.dow-ims{
+.dow-ims {
   text-align: center;
- 
 }
-.bg-imgs{
+.bg-imgs {
   background-image: url("images/middle-bar.png");
   margin: 20px;
   padding: 20px;
   height: 150px;
   width: 300px;
 }
+/* last section ,first div */
+.inquiry {
+  background-position: middle;
+}
 
+.last-top {
+  margin: 5% 20%;
+  padding: 10%;
+  text-align: center;
+  color: white;
+}
+.last-top img {
+  width: 100%;
+}
+.top-text {
+  color: red;
+  font-size: 20px;
+  top: 8px;
+  left: 16px;
+}
+
+.right-button {
+  top: 30px;
+  right: 16px;
+}
