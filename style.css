@@ -13,6 +13,11 @@ h2 {
 .blue_color {
   color: rgb(43, 101, 226);
 }
+.white_color {
+  color: white;
+  float: left;
+  margin: 30px 60px;
+}
 .half-site {
   width: 40%;
   margin-left: 5%;
@@ -29,6 +34,20 @@ h2 {
   height: 50%;
   width: 25%;
 }
+
+.full-site {
+  width: auto;
+  margin: auto;
+}
+
+}
+
+.last-bg {
+  width: 25px;
+  height: 10px;
+ 
+
+}
 section {
   height: 500px;
   padding-bottom: 150px;
@@ -42,6 +61,12 @@ section {
   background-repeat: no-repeat;
   background-position: right;
 }
+
+.inquiry {
+  background-position: middle;
+  
+}
+
 .link-button {
   text-decoration: none;
   padding: 10px 25px;
@@ -58,6 +83,16 @@ section {
   color: white;
   background-image: linear-gradient(45deg, blue, cyan, gold);
 }
+.link-button3 {
+  text-decoration: none;
+  padding: 10px 25px;
+  margin-top: 20%;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(45deg, tomato, rgb(231, 80, 80), blue);
+}
+
 .Experiences {
   background-image: url("images/exp-bg.png");
   background-repeat: no-repeat;
@@ -88,4 +123,15 @@ footer {
   text-align: center;
   color: gray;
   font-size: 15px;
+}
+.dow-ims{
+  text-align: center;
+ 
+}
+.bg-imgs{
+  background-image: url("images/middle-bar.png");
+  margin: 20px;
+  padding: 20px;
+  height: 150px;
+  width: 300px;
 }
