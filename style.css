@@ -1,11 +1,17 @@
 body {
-  font-family: "Poppins", sans-serif;
-  margin: 5% 10%;
+  font-family: "Bebas Neue", cursive;
+  margin: 0%;
 }
 
-.button {
-  float: right;
-  margin-right: 5%;
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+  color: tomato;
+}
+.blue_color {
+  color: rgb(43, 101, 226);
 }
 .half-site {
   width: 40%;
@@ -13,22 +19,73 @@ body {
   float: left;
   padding-left: 2%;
 }
+
 .half-site img {
   width: 100%;
 }
-.full-site {
-  width: 40%;
-  margin-left: 5%;
-  float: left;
-  padding-left: 2%;
+.shadow-bg {
+  box-shadow: 10px 10px 50px gray;
+  border-radius: 10px;
+  height: 50%;
+  width: 25%;
+}
+section {
+  height: 500px;
+  padding-bottom: 150px;
+}
+.top-baner {
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+.Dream-area {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.link-button {
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(45deg, tomato, rgb(231, 80, 80), blue);
+}
+.link-button2 {
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+  background-image: linear-gradient(45deg, blue, cyan, gold);
+}
+.Experiences {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
-.full-site img {
-  width: 100%;
+#web-des {
+  border-left: 7px solid;
+  border-image: linear-gradient(5deg, tomato, blue);
+  border-image-slice: 1;
+}
+#grps-des {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, tomato, blue);
+  border-image-slice: 1;
+}
+#baby-web {
+  border-left: 7px solid;
+  border-image: linear-gradient(5deg, tomato, blue);
+  border-image-slice: 1;
+}
+
+.font-mid {
+  text-align: center;
 }
 
 footer {
-  size: 10%;
-  float: left;
-  margin-top: 10%;
+  text-align: center;
+  color: gray;
+  font-size: 15px;
 }
