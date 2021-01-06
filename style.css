@@ -2,6 +2,10 @@ body {
   font-family: "Bebas Neue", cursive;
   margin: 0%;
 }
+.menu{text-align: right; margin-right: 142px;}
+.menu ul{margin: 0; padding: 0%; list-style: none;}
+.menu li{display: inline-block;}
+.menu li a{display: block;color: black; padding: 10px; text-decoration: none;}
 
 h1 {
   font-size: 40px;
@@ -55,6 +59,7 @@ section {
 .top-baner {
   background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
+  margin: 30px 40px ;
 }
 .Dream-area {
   background-image: url("images/dream-bg.png");
@@ -64,7 +69,7 @@ section {
 
 .inquiry {
   background-position: middle;
-  
+
 }
 
 .link-button {
@@ -135,3 +140,4 @@ footer {
   height: 150px;
   width: 300px;
 }
+
